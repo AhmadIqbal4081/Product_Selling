@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshan Seeds - Vegetables &amp; Flower Seeds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=inherit&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div data-codia-role="app_shell">
+      <div data-codia-role="scroll_content">
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" aria-label="Announcement">
+    <div class="inner">
+      <span>We ship nationwide. within 7 Days. Cash on Delivery Available</span>
+      <span>&#128310; Free delivery on orders above Rs.5000</span>
+      <span>We ship nationwide. within 7 Days. Cash on Delivery Available</span>
+      <span>&#128310; Free delivery on orders above Rs.5000</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <!-- Logo -->
+      <a href="#" class="logo-wrap" aria-label="Roshan Seeds Home">
+        <img
+          src="https://static.codia.ai/s/image_751d4672-5ac9-427a-a7d9-a1e233ed1dcf.png"
+          alt="Roshan Seeds Logo"
+          class="logo-img"
+        />
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#" class="active">All Products</a>
+        <div class="nav-dropdown">
+          <a href="#">All Categories
+            <svg viewBox="0 0 10 6" width="10" height="6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+              <path d="M1 1l4 4 4-4"/>
+            </svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#">Seeds</a>
+            <a href="#">Fertilizers</a>
+            <a href="#">Insecticides</a>
+            <a href="#">Fungicides</a>
+            <a href="#">Organic</a>
+            <a href="#">Pots</a>
+          </div>
+        </div>
+        <a href="#">Checkout</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Order Tracking</a>
+      </nav>
+
+      <!-- Nav icons -->
+      <div class="nav-icons">
+        <a href="#" class="nav-icon-btn" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </a>
+        <a href="#" class="nav-icon-btn" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          <span class="badge">0</span>
+        </a>
+        <a href="#" class="nav-icon-btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+        </a>
+        <a href="#" class="nav-icon-btn" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="badge">0</span>
+        </a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE NAV ===== -->
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav-panel" id="mobileNav" aria-label="Mobile navigation">
+    <div class="mobile-nav-close">
+      <button id="mobileNavClose" aria-label="Close menu">&times;</button>
+    </div>
+    <a href="#">Home</a>
+    <a href="#">All Products</a>
+    <a href="#">All Categories</a>
+    <a href="#">Checkout</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Order Tracking</a>
+  </nav>
+
+  <!-- ===== SHOP LAYOUT ===== -->
+  <div class="shop-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <!-- Search -->
+      <div class="search-box">
+        <input type="text" placeholder="Search products..." aria-label="Search products" />
+        <button aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Categories -->
+      <div class="categories-panel">
+        <h3>Categories</h3>
+
+        <div class="cat-item">
+          <span class="cat-name link">Domestic Control</span>
+          <span class="cat-count">(45)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Fertilizers</span>
+          <span class="cat-count">(24)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Fungicides</span>
+          <span class="cat-count">(31)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name">General</span>
+          <span class="cat-count">(1)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Insecticides</span>
+          <span class="cat-count">(78)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Organic</span>
+          <span class="cat-count">(28)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Pots</span>
+          <span class="cat-count">(27)</span>
+        </div>
+        <div class="cat-item">
+          <span class="cat-name link">Seeds</span>
+          <span class="cat-count">(124)</span>
+        </div>
+
+        <!-- Sub cats -->
+        <div class="subcat-item">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:10px;color:#aaa;">&#9658;</span>
+            <span class="cat-name">Flower Seeds</span>
+          </div>
+          <span class="cat-count">(45)</span>
+        </div>
+        <div class="subcat-item" style="padding-left:52px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:9px;color:#bbb;">&#9658;</span>
+            <span class="cat-name">Summer Flower Seeds</span>
+          </div>
+          <span class="cat-count">(19)</span>
+        </div>
+        <div class="subcat-item" style="padding-left:52px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:9px;color:#bbb;">&#9658;</span>
+            <span class="cat-name">Winter Flower Seeds</span>
+          </div>
+          <span class="cat-count">(27)</span>
+        </div>
+        <div class="subcat-item">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:10px;color:#aaa;">&#9658;</span>
+            <span class="cat-name">Fruit Seeds</span>
+          </div>
+          <span class="cat-count">(9)</span>
+        </div>
+        <div class="subcat-item">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:10px;color:#aaa;">&#9658;</span>
+            <span class="cat-name">Herb Seeds</span>
+          </div>
+          <span class="cat-count">(16)</span>
+        </div>
+        <div class="subcat-item">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:10px;color:#aaa;">&#9658;</span>
+            <span class="cat-name">Vegetable Seeds</span>
+          </div>
+          <span class="cat-count">(55)</span>
+        </div>
+        <div class="subcat-item" style="padding-left:52px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:9px;color:#bbb;">&#9658;</span>
+            <span class="cat-name">Summer Vegetable Seeds</span>
+          </div>
+        </div>
+        <div class="subcat-item" style="padding-left:52px;">
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="font-size:9px;color:#bbb;">&#9658;</span>
+            <span class="cat-name">Winter Vegetable</span>
+          </div>
+          <span class="cat-count">(35)</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- PRODUCT AREA -->
+    <main class="product-area">
+      <!-- Toolbar -->
+      <div class="shop-toolbar">
+        <p class="results-count">Showing 1&#8211;12 of 448 results</p>
+        <select class="sort-select" aria-label="Sort products">
+          <option>Default sorting</option>
+          <option>Sort by popularity</option>
+          <option>Sort by latest</option>
+          <option>Sort by price: low to high</option>
+          <option>Sort by price: high to low</option>
+        </select>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="product-grid">
+
+        <!-- Card 1: 12v15amp Battery -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_be76780b-e829-4b0b-b7ee-4e9d2a814085.png" alt="" /> -->
+            <!-- <img src="https://static.codia.ai/s/image_4b99959b-3d23-4498-b2c7-79f1331c4f7b.png" alt="12v15amp/20hr fst 6 Machine Battery" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">12v15amp/20hr fst 6 Machine Battery</h2>
+            <div class="product-price">
+              <span class="price-new">Rs4,150.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Engine Power Sprayer -->
+        <article class="product-card">
+          <div class="product-badge">-6%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_4ac8a106-fa8d-417a-a15d-826592ee60f8.png" alt="Engine Power sprayer machine" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Engine Power sprayer machine</h2>
+            <div class="product-price">
+              <span class="price-old">Rs32,000.00</span>
+              <span class="price-new">Rs30,000.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Kitchen Gardening Kit -->
+        <article class="product-card">
+          <div class="product-badge">-20%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_04fb0b21-bd46-4f69-a428-4a815f9f8b96.png" alt="Kitchen gardening kit 1" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Kitchen gardening kit 1</h2>
+            <div class="product-price">
+              <span class="price-old">Rs1,000.00</span>
+              <span class="price-new">Rs800.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: Vegetable Seeds Pack -->
+        <article class="product-card">
+          <div class="product-badge">-15%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_1d7de790-35ef-4dbb-83e2-3e5ad72790ab.png" alt="Premium Vegetable Seeds F1 Hybrid" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Premium Vegetable Seeds F1 Hybrid</h2>
+            <div class="product-price">
+              <span class="price-old">Rs2,500.00</span>
+              <span class="price-new">Rs2,125.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5: Organic Fertilizer -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_90c72a4f-1d0e-4f84-8a50-ce4eff3da994.png" alt="Organic Fertilizer NPK" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Organic Fertilizer NPK 1kg</h2>
+            <div class="product-price">
+              <span class="price-new">Rs850.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 6: Grow Bags -->
+        <article class="product-card">
+          <div class="product-badge">-10%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_2d0a85e7-d267-4123-ba05-eb245d34cbf3.png" alt="Grow Bags 8 Inch" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Grow Bags 8 Inch (Pack of 10)</h2>
+            <div class="product-price">
+              <span class="price-old">Rs500.00</span>
+              <span class="price-new">Rs450.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+         <!-- Card 1: 12v15amp Battery -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_be76780b-e829-4b0b-b7ee-4e9d2a814085.png" alt="" /> -->
+            <!-- <img src="https://static.codia.ai/s/image_4b99959b-3d23-4498-b2c7-79f1331c4f7b.png" alt="12v15amp/20hr fst 6 Machine Battery" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">12v15amp/20hr fst 6 Machine Battery</h2>
+            <div class="product-price">
+              <span class="price-new">Rs4,150.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Engine Power Sprayer -->
+        <article class="product-card">
+          <div class="product-badge">-6%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_4ac8a106-fa8d-417a-a15d-826592ee60f8.png" alt="Engine Power sprayer machine" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Engine Power sprayer machine</h2>
+            <div class="product-price">
+              <span class="price-old">Rs32,000.00</span>
+              <span class="price-new">Rs30,000.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Kitchen Gardening Kit -->
+        <article class="product-card">
+          <div class="product-badge">-20%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_04fb0b21-bd46-4f69-a428-4a815f9f8b96.png" alt="Kitchen gardening kit 1" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Kitchen gardening kit 1</h2>
+            <div class="product-price">
+              <span class="price-old">Rs1,000.00</span>
+              <span class="price-new">Rs800.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: Vegetable Seeds Pack -->
+        <article class="product-card">
+          <div class="product-badge">-15%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_1d7de790-35ef-4dbb-83e2-3e5ad72790ab.png" alt="Premium Vegetable Seeds F1 Hybrid" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Premium Vegetable Seeds F1 Hybrid</h2>
+            <div class="product-price">
+              <span class="price-old">Rs2,500.00</span>
+              <span class="price-new">Rs2,125.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5: Organic Fertilizer -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_90c72a4f-1d0e-4f84-8a50-ce4eff3da994.png" alt="Organic Fertilizer NPK" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Organic Fertilizer NPK 1kg</h2>
+            <div class="product-price">
+              <span class="price-new">Rs850.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 6: Grow Bags -->
+        <article class="product-card">
+          <div class="product-badge">-10%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_2d0a85e7-d267-4123-ba05-eb245d34cbf3.png" alt="Grow Bags 8 Inch" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Grow Bags 8 Inch (Pack of 10)</h2>
+            <div class="product-price">
+              <span class="price-old">Rs500.00</span>
+              <span class="price-new">Rs450.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article> <!-- Card 1: 12v15amp Battery -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_be76780b-e829-4b0b-b7ee-4e9d2a814085.png" alt="" /> -->
+            <!-- <img src="https://static.codia.ai/s/image_4b99959b-3d23-4498-b2c7-79f1331c4f7b.png" alt="12v15amp/20hr fst 6 Machine Battery" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">12v15amp/20hr fst 6 Machine Battery</h2>
+            <div class="product-price">
+              <span class="price-new">Rs4,150.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Engine Power Sprayer -->
+        <article class="product-card">
+          <div class="product-badge">-6%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_4ac8a106-fa8d-417a-a15d-826592ee60f8.png" alt="Engine Power sprayer machine" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Engine Power sprayer machine</h2>
+            <div class="product-price">
+              <span class="price-old">Rs32,000.00</span>
+              <span class="price-new">Rs30,000.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Kitchen Gardening Kit -->
+        <article class="product-card">
+          <div class="product-badge">-20%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_04fb0b21-bd46-4f69-a428-4a815f9f8b96.png" alt="Kitchen gardening kit 1" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Kitchen gardening kit 1</h2>
+            <div class="product-price">
+              <span class="price-old">Rs1,000.00</span>
+              <span class="price-new">Rs800.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: Vegetable Seeds Pack -->
+        <article class="product-card">
+          <div class="product-badge">-15%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_1d7de790-35ef-4dbb-83e2-3e5ad72790ab.png" alt="Premium Vegetable Seeds F1 Hybrid" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Premium Vegetable Seeds F1 Hybrid</h2>
+            <div class="product-price">
+              <span class="price-old">Rs2,500.00</span>
+              <span class="price-new">Rs2,125.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5: Organic Fertilizer -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_90c72a4f-1d0e-4f84-8a50-ce4eff3da994.png" alt="Organic Fertilizer NPK" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Organic Fertilizer NPK 1kg</h2>
+            <div class="product-price">
+              <span class="price-new">Rs850.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 6: Grow Bags -->
+        <article class="product-card">
+          <div class="product-badge">-10%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_2d0a85e7-d267-4123-ba05-eb245d34cbf3.png" alt="Grow Bags 8 Inch" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Grow Bags 8 Inch (Pack of 10)</h2>
+            <div class="product-price">
+              <span class="price-old">Rs500.00</span>
+              <span class="price-new">Rs450.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article> <!-- Card 1: 12v15amp Battery -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_be76780b-e829-4b0b-b7ee-4e9d2a814085.png" alt="" /> -->
+            <!-- <img src="https://static.codia.ai/s/image_4b99959b-3d23-4498-b2c7-79f1331c4f7b.png" alt="12v15amp/20hr fst 6 Machine Battery" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">12v15amp/20hr fst 6 Machine Battery</h2>
+            <div class="product-price">
+              <span class="price-new">Rs4,150.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2: Engine Power Sprayer -->
+        <article class="product-card">
+          <div class="product-badge">-6%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_4ac8a106-fa8d-417a-a15d-826592ee60f8.png" alt="Engine Power sprayer machine" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Engine Power sprayer machine</h2>
+            <div class="product-price">
+              <span class="price-old">Rs32,000.00</span>
+              <span class="price-new">Rs30,000.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3: Kitchen Gardening Kit -->
+        <article class="product-card">
+          <div class="product-badge">-20%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_04fb0b21-bd46-4f69-a428-4a815f9f8b96.png" alt="Kitchen gardening kit 1" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Kitchen gardening kit 1</h2>
+            <div class="product-price">
+              <span class="price-old">Rs1,000.00</span>
+              <span class="price-new">Rs800.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4: Vegetable Seeds Pack -->
+        <article class="product-card">
+          <div class="product-badge">-15%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_1d7de790-35ef-4dbb-83e2-3e5ad72790ab.png" alt="Premium Vegetable Seeds F1 Hybrid" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Premium Vegetable Seeds F1 Hybrid</h2>
+            <div class="product-price">
+              <span class="price-old">Rs2,500.00</span>
+              <span class="price-new">Rs2,125.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5: Organic Fertilizer -->
+        <article class="product-card">
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_90c72a4f-1d0e-4f84-8a50-ce4eff3da994.png" alt="Organic Fertilizer NPK" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Organic Fertilizer NPK 1kg</h2>
+            <div class="product-price">
+              <span class="price-new">Rs850.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+        
+
+        <!-- Card 6: Grow Bags -->
+        <article class="product-card">
+          <div class="product-badge">-10%</div>
+          <div class="product-img-wrap">
+            <!-- <img src="https://static.codia.ai/s/image_2d0a85e7-d267-4123-ba05-eb245d34cbf3.png" alt="Grow Bags 8 Inch" loading="lazy" /> -->
+            <button class="quick-wish" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-name">Grow Bags 8 Inch (Pack of 10)</h2>
+            <div class="product-price">
+              <span class="price-old">Rs500.00</span>
+              <span class="price-new">Rs450.00</span>
+            </div>
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+              Add to cart
+            </button>
+            <button class="btn-wish">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+              Add to Wishlist
+            </button>
+          </div>
+        </article>
+
+      </div><!-- /product-grid -->
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button class="active" aria-current="page">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>&#8250;</button>
+      </div>
+
+    </main><!-- /product-area -->
+  </div><!-- /shop-layout -->
+
+  <!-- ===== WHATSAPP CHAT BUBBLE ===== -->
+  <a href="https://wa.me/92300000000" class="chat-bubble" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <img src="https://static.codia.ai/s/image_89aa8205-8d7b-4919-81be-9ac546c17dc3.png" alt="WhatsApp" />
+    <span>Chat Now</span>
+  </a>
+
+  <script>
+    // Mobile nav toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    const mobileOverlay = document.getElementById('mobileOverlay');
+    const mobileNavClose = document.getElementById('mobileNavClose');
+
+    function openNav() {
+      mobileNav.classList.add('open');
+      mobileOverlay.classList.add('open');
+      hamburger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeNav() {
+      mobileNav.classList.remove('open');
+      mobileOverlay.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', openNav);
+    mobileNavClose.addEventListener('click', closeNav);
+    mobileOverlay.addEventListener('click', closeNav);
+
+    // Cart button micro-interaction
+    document.querySelectorAll('.btn-cart').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var orig = btn.innerHTML;
+        btn.style.background = '#5c7a3e';
+        btn.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Added!';
+        setTimeout(function() {
+          btn.innerHTML = orig;
+          btn.style.background = '';
+        }, 1500);
+      });
+    });
+
+    // Wishlist toggle
+    document.querySelectorAll('.btn-wish, .quick-wish').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var svg = btn.querySelector('svg');
+        if (svg) {
+          var filled = svg.getAttribute('fill') === '#e05a60';
+          svg.setAttribute('fill', filled ? 'none' : '#e05a60');
+          svg.setAttribute('stroke', filled ? 'currentColor' : '#e05a60');
+        }
+      });
+    });
+
+    // Category item click highlight
+    document.querySelectorAll('.cat-item').forEach(function(item) {
+      item.addEventListener('click', function() {
+        document.querySelectorAll('.cat-item').forEach(function(i) { i.classList.remove('active'); });
+        item.classList.add('active');
+      });
+    });
+
+    // Scroll reveal for cards
+    var cards = document.querySelectorAll('.product-card');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = 'running';
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      cards.forEach(function(c) {
+        c.style.animationPlayState = 'paused';
+        io.observe(c);
+      });
+    }
+  </script>
+</div>
+      <div data-codia-role="fixed_chrome"></div>
+    </div>
+  
+    <div id="codia-required-assets" style="display:none">
+      <img src="https://static.codia.ai/s/image_7510428c-261a-4e02-b583-87b8502fc44a.png" alt="" />
+      <img src="https://static.codia.ai/s/image_3cc9762e-24a0-4076-8842-a5b18836cc88.png" alt="" />
+      <img src="https://static.codia.ai/s/image_6676a02d-223a-4231-8da7-532292f9c424.png" alt="" />
+      <img src="https://static.codia.ai/s/image_fc686bd7-1d3a-46f6-9944-b091ac31617d.png" alt="" />
+      <img src="https://static.codia.ai/s/image_e7480bfe-be21-4e0d-bf35-27d69845f5ec.png" alt="" />
+      <img src="https://static.codia.ai/s/image_d7e3be88-a000-4b8a-903c-c7d53ad1f2b7.png" alt="" />
+      <img src="https://static.codia.ai/s/image_04b62729-816d-4d9f-8009-3383c5c96380.png" alt="" />
+      <img src="https://static.codia.ai/s/image_db54636b-3ba9-4545-920d-c634166cacd9.png" alt="" />
+      <img src="https://static.codia.ai/s/image_3bdad37a-deec-46ba-a5eb-7482ba911ad2.png" alt="" />
+      <img src="https://static.codia.ai/s/image_5dce2cbe-fd09-49f4-bca1-2f07fd2c79ea.png" alt="" />
+      <img src="https://static.codia.ai/s/image_1041d9d5-0b8f-4c0f-b91c-906673891445.png" alt="" />
+      <img src="https://static.codia.ai/s/image_29b52984-f1fd-48d7-857b-30e63539d568.png" alt="" />
+      <img src="https://static.codia.ai/s/image_d2021069-55ea-4c94-8617-0372061c9b9a.png" alt="" />
+      <img src="https://static.codia.ai/s/image_f7ee85f8-0b9f-420b-83aa-d3c3842aaffb.png" alt="" />
+      <img src="https://static.codia.ai/s/image_4969b635-c17c-4ddc-a862-f8f6186a4fd8.png" alt="" />
+      <img src="https://static.codia.ai/s/image_bcf53762-4892-45e5-87ab-44fd02dcb14a.png" alt="" />
+      <img src="https://static.codia.ai/s/image_27d251d8-2fea-4c39-8831-21ebe0ca514c.png" alt="" />
+      <img src="https://static.codia.ai/s/image_b7f84b91-0a96-46ee-9742-50f8be370201.png" alt="" />
+      <img src="https://static.codia.ai/s/image_594cd125-009e-47f5-962d-2f9708c63fbc.png" alt="" />
+      <img src="https://static.codia.ai/s/image_7de1f30e-7653-4ee7-a556-11229d0653d4.png" alt="" />
+      <img src="https://static.codia.ai/s/image_3db23cca-a7f8-485e-aa15-66a38762d4c3.png" alt="" />
+      <img src="https://static.codia.ai/s/image_544f88c2-1c10-46ff-b875-cccf8649af08.png" alt="" />
+      <img src="https://static.codia.ai/s/image_e218fdd9-2adf-4722-85ac-c7830fd67517.png" alt="" />
+      <img src="https://static.codia.ai/s/image_e78639e9-bc7f-4ee6-9937-572683ec03cc.png" alt="" />
+      <img src="https://static.codia.ai/s/image_dd53027f-72d8-4018-90a6-46379faf6186.png" alt="" />
+      <img src="https://static.codia.ai/s/image_982e7bc9-ddf1-41f7-8321-536cd1bf7768.png" alt="" />
+      <img src="https://static.codia.ai/s/image_e3297560-47ae-4e94-97a3-7ae3dd4e7612.png" alt="" />
+      <img src="https://static.codia.ai/s/image_7fcdeb5e-1f27-4bdd-8b2b-51464a8388f3.png" alt="" />
+      <img src="https://static.codia.ai/s/image_9906efbe-871b-4386-a056-4b7b3d4c0e04.png" alt="" />
+      <img src="https://static.codia.ai/s/image_b68d54a1-c532-4026-9d30-fd1068bd7a78.png" alt="" />
+      <img src="https://static.codia.ai/s/image_5ba60fa8-4838-470d-8e9e-4883fff56541.png" alt="" />
+    </div>
+</body>
+</html>
